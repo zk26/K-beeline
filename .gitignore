@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 构建产物
+build/
+dist/
+*.spec
+Output/
+
+# 本地 wheel 包
+.wheels/
+
+# 运行时数据（用户数据目录外的本地残留）
+logs/
+temp_upload/
+used_ips.txt
+config.json
